@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Ce dépôt contient un prototype de véhicule autonome ou robot mobile utilisant un capteur LiDAR LD19 et un ESP32. Le projet combine la lecture de données de distance et d’angle du LiDAR pour détecter un « gap » libre devant le robot, puis pilote un servo et un variateur électronique (ESC) pour diriger la trajectoire et contrôler la vitesse.
+Ce dépôt contient un prototype de véhicule autonome utilisant un capteur LiDAR LD19 et un ESP32. Le projet combine la lecture de données de distance et d’angle du LiDAR pour détecter un « gap » libre devant le robot, puis pilote un servo et un variateur électronique (ESC) pour diriger la trajectoire et contrôler la vitesse.
 
 ## Contenu du dépôt
 
