@@ -19,8 +19,8 @@ Ce dépôt contient un prototype de véhicule autonome utilisant un capteur LiDA
 
 ## Installation et usage
 
-1. Connecter le LiDAR LD19 à l’ordinateur sur le port série configuré dans `lidar_ld19.py` (`COM11` par défaut).
-2. Connecter l’ESP32 à un autre port série (`COM7` par défaut) avec le servo, l’ESC et le capteur Hall correctement câblés.
+1. Connecter le LiDAR LD19 à la RPI sur le port série configuré dans `lidar_ld19.py`.
+2. Connecter l’ESP32 à un autre port série.
 3. Ouvrir le projet Arduino et téléverser `ESP_follow_gap.ino` sur l’ESP32.
 4. Installer Python si nécessaire et les dépendances suivantes :
    - `pyserial`
@@ -29,7 +29,7 @@ Ce dépôt contient un prototype de véhicule autonome utilisant un capteur LiDA
    python Codes_ScieWay/lidar_ld19.py
    ```
 
-> Ajuster `LIDAR_PORT` et `ESP32_PORT` dans `lidar_ld19.py` selon les ports COM réels de votre machine.
+> Ajuster `LIDAR_PORT` et `ESP32_PORT` dans `lidar_ld19.py` selon les ports réels de votre machine.
 
 ## Fichiers importants
 
